@@ -1,7 +1,33 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <aiml>
   <category>
-    <pattern>WHAT IS YOUR</pattern>
+    <pattern>WHAT IS YOUR *</pattern>
     <template>My name is hsh</template>
   </category>
+  
+  <category>
+    <pattern>* BAHRAIN *</pattern>
+    <template> <star index="1"/> I have lived there before <star index ="2"/></template>
+  </category>
+  
+  <category>
+    <pattern>*</pattern>
+    <template> I am for partice</template>
+  </category>
+  
+  <category>
+    <pattern> TELL ME WHAT AIML IS </pattern>
+    <template>It is a languge to create bots </template>
+  </category>
+  
+  <category>
+    <pattern> TELL ME WHAT * IS </pattern>
+    <template><srai> what is <star/></srai></template>
+  </category>
+  
+  <category>
+      <template> TELL ME MORE </template>
+      <THAT> MY NAME IS HSH </THAT>
+      <pattern> There is not much to say </pattern>
+  </category>
+  
 </aiml>
